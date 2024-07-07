@@ -46,7 +46,7 @@ def speech_to_text():
     duration = 8  # مدت زمان ضبط به ثانیه
     filename = 'output.wav'  # نام فایل خروجی
 
-    print("The AI ​​model is listening...")
+    print("The AI model is listening...")
     myrecording = sd.rec(int(samplerate * duration), samplerate=samplerate, channels=1, dtype='int16')
     sd.wait()  # انتظار برای اتمام ضبط
     print("End of listening.")
@@ -87,7 +87,7 @@ def tts_persian(text):
         'accept': 'application/json'
     }
 
-    print("The AI ​​model is thinking...")
+    print("The AI model is thinking...")
     # ارسال درخواست GET به API
     response = requests.get(url, headers=headers)
 
