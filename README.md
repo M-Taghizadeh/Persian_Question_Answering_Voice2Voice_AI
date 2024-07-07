@@ -27,9 +27,11 @@
 ## روش استفاده و نصب هوش مصنوعی
 
 1. ابتدا پروژه را از لینک گیتهاب زیر دانلود کنید:
+
 [لینک مستقیم دانلود پروژه در فایل زیپ](https://github.com/M-Taghizadeh/Persian_Question_Answering_Voice2Voice_AI/archive/refs/heads/master.zip)
 
 2. نصب پایتون نسخه سه:
+
 [دانلود پایتون از سایت رسمی](https://www.python.org/ftp/python/3.12.4/python-3.12.4-amd64.exe)
 
 3. نصب تمام ابزارها و کتابخانه‌ها با دستور زیر
